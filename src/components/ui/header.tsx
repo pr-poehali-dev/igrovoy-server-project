@@ -9,7 +9,7 @@ export default function Header() {
         <div className="mr-4 flex items-center space-x-2">
           <Link to="/" className="flex items-center space-x-2">
             <img src="/logo-b.svg" alt="Лого" className="h-6 w-6" />
-            <span className="font-bold text-xl">GameServer</span>
+            <span className="font-bold text-xl">DayZ Серверы</span>
           </Link>
         </div>
         <nav className="flex-1 flex items-center justify-between">
@@ -17,11 +17,14 @@ export default function Header() {
             <Link to="/" className="text-sm font-medium hover:text-primary transition-colors">
               Главная
             </Link>
-            <Link to="/games" className="text-sm font-medium hover:text-primary transition-colors">
-              Игры
+            <Link to="/servers" className="text-sm font-medium hover:text-primary transition-colors">
+              Серверы
             </Link>
-            <Link to="/stats" className="text-sm font-medium hover:text-primary transition-colors">
-              Статистика
+            <Link to="/mods" className="text-sm font-medium hover:text-primary transition-colors">
+              Моды
+            </Link>
+            <Link to="/rules" className="text-sm font-medium hover:text-primary transition-colors">
+              Правила
             </Link>
             <Link to="/about" className="text-sm font-medium hover:text-primary transition-colors">
               О нас
