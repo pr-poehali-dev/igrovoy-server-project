@@ -2,6 +2,7 @@ import Header from "@/components/ui/header";
 import GameCard from "@/components/game-card";
 import ServerStats from "@/components/server-stats";
 import { Button } from "@/components/ui/button";
+import { Server, Activity, Users } from "lucide-react"; // Добавил импорт отсутствующих иконок
 
 const Index = () => {
   const featuredGames = [
